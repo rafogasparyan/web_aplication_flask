@@ -62,6 +62,3 @@ class Item(db.Model):
         db.session.commit()
 
 
-# u1 = User(username="jsc", password_hash="pass", email="abc@mail.com")
-# i1 = Item(name='Iphone 10', description="iphone10", price=800, barcode="1234564732")
-# i2 = Item(name='Laptop', description="laptop", price=900, barcode="763487523")
